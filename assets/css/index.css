@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+}
+.header .detal{
+    display: flex;
+    align-items: center;
+}
+.detal .logo{
+    font-size: 25px;
+    color: white;
+}
+.detal .navbar a{
+    text-decoration: none;
+    color: gray;
+}
+.detal .navbar a:hover{
+    color: white;
+}
